@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <div>
+        <ul class="nav">
+            <div class="word"><h2>品丞麵包坊</h2></div>
+        </ul>
+    </div>
+    <h1>購物車</h1>
+ 
+<div class="shopping-cart">
+
+  <div class="product">
+    <div class="product-image">
+      <img src="./img/2.jpeg">
+    </div>
+    <div class="product-details">
+      <div class="product-title">元寶吐司</div>
+      <p class="product-description">紅豆</p>
+    </div>
+    <div class="product-price">60</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        移除
+      </button>
+    </div>
+  </div>
+
+  <div class="product">
+    <div class="product-image">
+      <img src="./img/4.jpg">
+    </div>
+    <div class="product-details">
+      <div class="product-title">地瓜燒</div>
+    </div>
+    <div class="product-price">35</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        移除
+      </button>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr>
+  <div class="totals">
+    <div class="totals-item">
+    <div class="totals-item totals-item-total">
+      <label>總金額</label>
+      <div class="totals-value" id="cart-total">85</div>
+    </div>
+  </div>
+  
+      <a href="mail.html"><button class="checkout">送出訂單</button></a>
+
+</div>
+
+        <script src="cart.js"></script>
+</body>
+</html> 
